@@ -1,0 +1,1516 @@
+{
+    "status": "ready",
+    "tables": [
+        {
+            "column_types": [
+                "table_column_code",
+                "table_column_quantity",
+                "table_column_code",
+                "table_column_description",
+                "table_column_other",
+                "table_column_uom",
+                "table_column_amount",
+                "table_column_amount",
+                "table_column_amount_total"
+            ],
+            "rows": [
+                {
+                    "cells": [
+                        {
+                            "content": "ITEM",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                246,
+                                90,
+                                294
+                            ],
+                            "value": "ITEM"
+                        },
+                        {
+                            "content": "QUANTITY",
+                            "value_type": "text",
+                            "bbox": [
+                                96,
+                                246,
+                                174,
+                                294
+                            ],
+                            "value": "QUANTITY"
+                        },
+                        {
+                            "content": "PART NUMBER",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                246,
+                                282,
+                                294
+                            ],
+                            "value": "PART NUMBER"
+                        },
+                        {
+                            "content": "DESCRIPTION",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                246,
+                                534,
+                                294
+                            ],
+                            "value": "DESCRIPTION"
+                        },
+                        {
+                            "content": "REQUIRED\nDATE",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                246,
+                                756,
+                                294
+                            ],
+                            "value": "REQUIRED\nDATE"
+                        },
+                        {
+                            "content": "U/M",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                246,
+                                798,
+                                294
+                            ],
+                            "value": "U/M"
+                        },
+                        {
+                            "content": "UNIT PRICE",
+                            "value_type": "text",
+                            "bbox": [
+                                834,
+                                246,
+                                930,
+                                294
+                            ],
+                            "value": "UNIT PRICE"
+                        },
+                        {
+                            "content": "PRICE",
+                            "value_type": "text",
+                            "bbox": [
+                                1014,
+                                246,
+                                1086,
+                                294
+                            ],
+                            "value": "PRICE"
+                        },
+                        {
+                            "content": "QUOTE\nNO.",
+                            "value_type": "text",
+                            "bbox": [
+                                1128,
+                                246,
+                                1212,
+                                294
+                            ],
+                            "value": "QUOTE\nNO."
+                        }
+                    ],
+                    "type": "header"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "001",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                288,
+                                90,
+                                324
+                            ],
+                            "value": "001"
+                        },
+                        {
+                            "content": "10",
+                            "value_type": "number",
+                            "bbox": [
+                                96,
+                                288,
+                                174,
+                                324
+                            ],
+                            "value": "10"
+                        },
+                        {
+                            "content": "F54749",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                288,
+                                282,
+                                324
+                            ],
+                            "value": "F54749"
+                        },
+                        {
+                            "content": "NW Globe Chassis, 1492 Model",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                288,
+                                534,
+                                324
+                            ],
+                            "value": "NW Globe Chassis, 1492 Model"
+                        },
+                        {
+                            "content": "28/02/01",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                288,
+                                756,
+                                324
+                            ],
+                            "value": "28/02/01"
+                        },
+                        {
+                            "content": "EA",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                288,
+                                798,
+                                324
+                            ],
+                            "value": "EA"
+                        },
+                        {
+                            "content": "29.50",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                288,
+                                930,
+                                324
+                            ],
+                            "value": "29.50"
+                        },
+                        {
+                            "content": "295.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1014,
+                                288,
+                                1086,
+                                324
+                            ],
+                            "value": "295.00"
+                        },
+                        {
+                            "content": "Q84645",
+                            "value_type": null,
+                            "bbox": [
+                                1128,
+                                288,
+                                1212,
+                                324
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "002",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                318,
+                                90,
+                                354
+                            ],
+                            "value": "002"
+                        },
+                        {
+                            "content": "15",
+                            "value_type": "number",
+                            "bbox": [
+                                96,
+                                318,
+                                174,
+                                354
+                            ],
+                            "value": "15"
+                        },
+                        {
+                            "content": "F85352",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                318,
+                                282,
+                                354
+                            ],
+                            "value": "F85352"
+                        },
+                        {
+                            "content": "NW Globe Light Kit",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                318,
+                                534,
+                                354
+                            ],
+                            "value": "NW Globe Light Kit"
+                        },
+                        {
+                            "content": "28/02/01",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                318,
+                                756,
+                                354
+                            ],
+                            "value": "28/02/01"
+                        },
+                        {
+                            "content": "EA",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                318,
+                                798,
+                                354
+                            ],
+                            "value": "EA"
+                        },
+                        {
+                            "content": "19.00",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                318,
+                                930,
+                                354
+                            ],
+                            "value": "19.00"
+                        },
+                        {
+                            "content": "285.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1014,
+                                318,
+                                1086,
+                                354
+                            ],
+                            "value": "285.00"
+                        },
+                        {
+                            "content": "Q84646",
+                            "value_type": null,
+                            "bbox": [
+                                1128,
+                                318,
+                                1212,
+                                354
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "003",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                348,
+                                90,
+                                378
+                            ],
+                            "value": "003"
+                        },
+                        {
+                            "content": "6",
+                            "value_type": "number",
+                            "bbox": [
+                                96,
+                                348,
+                                174,
+                                378
+                            ],
+                            "value": "6"
+                        },
+                        {
+                            "content": "F84352",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                348,
+                                282,
+                                378
+                            ],
+                            "value": "F84352"
+                        },
+                        {
+                            "content": "NW Globe 30' Oak Stand",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                348,
+                                534,
+                                378
+                            ],
+                            "value": "NW Globe 30' Oak Stand"
+                        },
+                        {
+                            "content": "28/02/01",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                348,
+                                756,
+                                378
+                            ],
+                            "value": "28/02/01"
+                        },
+                        {
+                            "content": "EA",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                348,
+                                798,
+                                378
+                            ],
+                            "value": "EA"
+                        },
+                        {
+                            "content": "30.00",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                348,
+                                930,
+                                378
+                            ],
+                            "value": "30.00"
+                        },
+                        {
+                            "content": "180.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1014,
+                                348,
+                                1086,
+                                378
+                            ],
+                            "value": "180.00"
+                        },
+                        {
+                            "content": "Q84647",
+                            "value_type": null,
+                            "bbox": [
+                                1128,
+                                348,
+                                1212,
+                                378
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "004",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                372,
+                                90,
+                                408
+                            ],
+                            "value": "004"
+                        },
+                        {
+                            "content": "20",
+                            "value_type": "number",
+                            "bbox": [
+                                96,
+                                372,
+                                174,
+                                408
+                            ],
+                            "value": "20"
+                        },
+                        {
+                            "content": "L86355",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                372,
+                                282,
+                                408
+                            ],
+                            "value": "L86355"
+                        },
+                        {
+                            "content": "NW Atlas Leather-Bound",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                372,
+                                534,
+                                408
+                            ],
+                            "value": "NW Atlas Leather-Bound"
+                        },
+                        {
+                            "content": "28/02/01",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                372,
+                                756,
+                                408
+                            ],
+                            "value": "28/02/01"
+                        },
+                        {
+                            "content": "EA",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                372,
+                                798,
+                                408
+                            ],
+                            "value": "EA"
+                        },
+                        {
+                            "content": "25.00",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                372,
+                                930,
+                                408
+                            ],
+                            "value": "25.00"
+                        },
+                        {
+                            "content": "500.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1014,
+                                372,
+                                1086,
+                                408
+                            ],
+                            "value": "500.00"
+                        },
+                        {
+                            "content": "Q84648",
+                            "value_type": null,
+                            "bbox": [
+                                1128,
+                                372,
+                                1212,
+                                408
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "005",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                402,
+                                90,
+                                438
+                            ],
+                            "value": "005"
+                        },
+                        {
+                            "content": "12",
+                            "value_type": "number",
+                            "bbox": [
+                                96,
+                                402,
+                                174,
+                                438
+                            ],
+                            "value": "12"
+                        },
+                        {
+                            "content": "L86362",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                402,
+                                282,
+                                438
+                            ],
+                            "value": "L86362"
+                        },
+                        {
+                            "content": "NW Atlas Young Readers Series",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                402,
+                                534,
+                                438
+                            ],
+                            "value": "NW Atlas Young Readers Series"
+                        },
+                        {
+                            "content": "28/02/01",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                402,
+                                756,
+                                438
+                            ],
+                            "value": "28/02/01"
+                        },
+                        {
+                            "content": "EA",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                402,
+                                798,
+                                438
+                            ],
+                            "value": "EA"
+                        },
+                        {
+                            "content": "10.00",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                402,
+                                930,
+                                438
+                            ],
+                            "value": "10.00"
+                        },
+                        {
+                            "content": "120.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1014,
+                                402,
+                                1086,
+                                438
+                            ],
+                            "value": "120.00"
+                        },
+                        {
+                            "content": "Q84649",
+                            "value_type": null,
+                            "bbox": [
+                                1128,
+                                402,
+                                1212,
+                                438
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "006",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                432,
+                                90,
+                                462
+                            ],
+                            "value": "006"
+                        },
+                        {
+                            "content": "40",
+                            "value_type": "number",
+                            "bbox": [
+                                96,
+                                432,
+                                174,
+                                462
+                            ],
+                            "value": "40"
+                        },
+                        {
+                            "content": "A86357",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                432,
+                                282,
+                                462
+                            ],
+                            "value": "A86357"
+                        },
+                        {
+                            "content": "NW Pen Rollerball",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                432,
+                                534,
+                                462
+                            ],
+                            "value": "NW Pen Rollerball"
+                        },
+                        {
+                            "content": "28/02/01",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                432,
+                                756,
+                                462
+                            ],
+                            "value": "28/02/01"
+                        },
+                        {
+                            "content": "EA",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                432,
+                                798,
+                                462
+                            ],
+                            "value": "EA"
+                        },
+                        {
+                            "content": "7.50",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                432,
+                                930,
+                                462
+                            ],
+                            "value": "7.50"
+                        },
+                        {
+                            "content": "300.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1014,
+                                432,
+                                1086,
+                                462
+                            ],
+                            "value": "300.00"
+                        },
+                        {
+                            "content": "Q84650",
+                            "value_type": null,
+                            "bbox": [
+                                1128,
+                                432,
+                                1212,
+                                462
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "007",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                456,
+                                90,
+                                492
+                            ],
+                            "value": "007"
+                        },
+                        {
+                            "content": "25",
+                            "value_type": "number",
+                            "bbox": [
+                                96,
+                                456,
+                                174,
+                                492
+                            ],
+                            "value": "25"
+                        },
+                        {
+                            "content": "A86362",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                456,
+                                282,
+                                492
+                            ],
+                            "value": "A86362"
+                        },
+                        {
+                            "content": "NW Pen Fountain",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                456,
+                                534,
+                                492
+                            ],
+                            "value": "NW Pen Fountain"
+                        },
+                        {
+                            "content": "28/02/01",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                456,
+                                756,
+                                492
+                            ],
+                            "value": "28/02/01"
+                        },
+                        {
+                            "content": "EA",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                456,
+                                798,
+                                492
+                            ],
+                            "value": "EA"
+                        },
+                        {
+                            "content": "16.00",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                456,
+                                930,
+                                492
+                            ],
+                            "value": "16.00"
+                        },
+                        {
+                            "content": "400.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1014,
+                                456,
+                                1086,
+                                492
+                            ],
+                            "value": "400.00"
+                        },
+                        {
+                            "content": "Q84651",
+                            "value_type": null,
+                            "bbox": [
+                                1128,
+                                456,
+                                1212,
+                                492
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "008",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                486,
+                                90,
+                                522
+                            ],
+                            "value": "008"
+                        },
+                        {
+                            "content": "50",
+                            "value_type": "number",
+                            "bbox": [
+                                96,
+                                486,
+                                174,
+                                522
+                            ],
+                            "value": "50"
+                        },
+                        {
+                            "content": "A86552",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                486,
+                                282,
+                                522
+                            ],
+                            "value": "A86552"
+                        },
+                        {
+                            "content": "NW Globe Beach Balls, 24?",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                486,
+                                534,
+                                522
+                            ],
+                            "value": "NW Globe Beach Balls, 24?"
+                        },
+                        {
+                            "content": "28/02/01",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                486,
+                                756,
+                                522
+                            ],
+                            "value": "28/02/01"
+                        },
+                        {
+                            "content": "EA",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                486,
+                                798,
+                                522
+                            ],
+                            "value": "EA"
+                        },
+                        {
+                            "content": "5.00",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                486,
+                                930,
+                                522
+                            ],
+                            "value": "5.00"
+                        },
+                        {
+                            "content": "250.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1014,
+                                486,
+                                1086,
+                                522
+                            ],
+                            "value": "250.00"
+                        },
+                        {
+                            "content": "Q84652",
+                            "value_type": null,
+                            "bbox": [
+                                1128,
+                                486,
+                                1212,
+                                522
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "009",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                516,
+                                90,
+                                546
+                            ],
+                            "value": "009"
+                        },
+                        {
+                            "content": "100",
+                            "value_type": "number",
+                            "bbox": [
+                                96,
+                                516,
+                                174,
+                                546
+                            ],
+                            "value": "100"
+                        },
+                        {
+                            "content": "A84352",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                516,
+                                282,
+                                546
+                            ],
+                            "value": "A84352"
+                        },
+                        {
+                            "content": "NW Promotional Calendars",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                516,
+                                534,
+                                546
+                            ],
+                            "value": "NW Promotional Calendars"
+                        },
+                        {
+                            "content": "28/02/01",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                516,
+                                756,
+                                546
+                            ],
+                            "value": "28/02/01"
+                        },
+                        {
+                            "content": "EA",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                516,
+                                798,
+                                546
+                            ],
+                            "value": "EA"
+                        },
+                        {
+                            "content": "0.10",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                516,
+                                930,
+                                546
+                            ],
+                            "value": "0.10"
+                        },
+                        {
+                            "content": "10.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1014,
+                                516,
+                                1086,
+                                546
+                            ],
+                            "value": "10.00"
+                        },
+                        {
+                            "content": "Q84653",
+                            "value_type": null,
+                            "bbox": [
+                                1128,
+                                516,
+                                1212,
+                                546
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "010",
+                            "value_type": "text",
+                            "bbox": [
+                                36,
+                                540,
+                                90,
+                                576
+                            ],
+                            "value": "010"
+                        },
+                        {
+                            "content": "100",
+                            "value_type": "number",
+                            "bbox": [
+                                96,
+                                540,
+                                174,
+                                576
+                            ],
+                            "value": "100"
+                        },
+                        {
+                            "content": "A36352",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                540,
+                                282,
+                                576
+                            ],
+                            "value": "A36352"
+                        },
+                        {
+                            "content": "NW Promotional Balloons",
+                            "value_type": "text",
+                            "bbox": [
+                                288,
+                                540,
+                                534,
+                                576
+                            ],
+                            "value": "NW Promotional Balloons"
+                        },
+                        {
+                            "content": "28/02/01",
+                            "value_type": "text",
+                            "bbox": [
+                                666,
+                                540,
+                                756,
+                                576
+                            ],
+                            "value": "28/02/01"
+                        },
+                        {
+                            "content": "EA",
+                            "value_type": "text",
+                            "bbox": [
+                                750,
+                                540,
+                                798,
+                                576
+                            ],
+                            "value": "EA"
+                        },
+                        {
+                            "content": "0.15",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                540,
+                                930,
+                                576
+                            ],
+                            "value": "0.15"
+                        },
+                        {
+                            "content": "15.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1014,
+                                540,
+                                1086,
+                                576
+                            ],
+                            "value": "15.00"
+                        },
+                        {
+                            "content": "Q84654",
+                            "value_type": null,
+                            "bbox": [
+                                1128,
+                                540,
+                                1212,
+                                576
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                }
+            ],
+            "page": 0,
+            "bbox": [
+                36,
+                246,
+                1212,
+                576
+            ]
+        }
+    ],
+    "full_text": {
+        "content": [
+            "New World Company                     PURCHASE ORDER                       F.O:         NW\u201401\u201416366\n",
+            "|        Tee:ed ranaan smet___                                                                                              Number\n",
+            "CE5'22. eLELGT atsarz ro                                                                                                  P.O. DateFeb/28/2001\n",
+            "&  P      Denoce er 586 35                                                                                                                ..           P\n",
+            "PrF00*F5 42 SR AC 16\u2014943236\n",
+            "iboo\n",
+            "TO: Acme Parts Corporation                                            SHIP TO: The New World Company Phone (999) 999\u20149999\n",
+            "1323 Kelton Street                                                                2467 Pioneer Road John H       k\n",
+            "Globecity,  Globeland 1000                                                       Globecity,  Globelana, 1000                            onlact Jon Harcoc\n",
+            "(via FAX 999/999\u20149999)                                                                     Attn: Shlpping Mary\n",
+            "FOB: Vendor/Globecity Globeland                                                      SHIP VIA: UPS                             TERMS: Net 30 days\n",
+            ".nnannnnnnnnaenn E\n",
+            "001              10  F54749            NW Globe Chassis, 1492 Model                            28/02/01     EA                29.50                    295.00            Q84645\n",
+            "002             15F85352            NW Globe Light Kit                                           28/02/01  EA                19.00                    285.00            Q84646\n",
+            "003               6F84352            NW Globe 30\" Oak Stand                                    28/02/01  EA                 30.00                    180.00            Q84647\n",
+            "004           20  L86355          NW Atlas Leather\u2014Bound                                28/02/01    EA              25.00                 300.00          Q84648\n",
+            "005            12L86362           NW Atlas Young Readers Series                         28/02/01  EA               10.00                  120.00           Q84649\n",
+            "006          40  A86357         NW Pen Rollerball                                  28/02/01  EA              7.50               300.00         Q84650\n",
+            "007          25A86362         NW Pen Fountain                                   28/02/01  EA             16.00               400.00         Q84651\n",
+            "008            50A86552           NW Globe Beach Balls, 24\"                                28/02/01  EA                 5.00                   250.00           Q84652\n",
+            "009        100  A84352        NW Promotional Calendars                       28/02/01  EA            0.10              10.00        Q84653\n",
+            "010        100  A36352        NW Promotional Balloons                        28/02/01  EA            0.15              15.00        Q84654\n",
+            "I.PURCHASE ORDER NUMBER, PART NUMBER AND QUANTITY MUST SHOW ON EACH CARTON.\n",
+            "2 Two pacling sheets must accompany cach shppment                                                                                                                                            SUB\u2014TOTAL             2.355.00\n",
+            "3.Protecton of Matria n Transtt  llaricles deivered on this order to be packed adequately to prevent any\n",
+            "damago I shpnent and storage. Use ot newsprnt and glassne bags pronibted.  NI packages to be      IIII.!II....IMIIIIIIIIIIIIIIII                TAX             141.50\n",
+            "properiydentfed.\n",
+            "4.Seller must execute acknowledgment copy hereof and retun to buyer. No other form of acceptance is               Nu\u201401716356\n",
+            "bindng on buyet. Borerespressy Imtsacceplance fo tho trmsstated herin and any adtinal or ferent                                                           TOTAL         2,496.50\n",
+            "terns proposed by selle shal not be binding on buyer whetheror not they would mateialy atr thisorder\n",
+            "and are rjeced.\n",
+            "5. ANY 8OX OVER 50 klLoS WLL BE REFUSEO.\n",
+            "P.o. AcKNow.EDGED BY:\n",
+            "\u2014\u2014                                       BUYER                                                         DATE:. Feb/28/2001\n",
+            "DATE                                                        Page: 1 of 1                                                               Porhateoct cpo\u2014ssose!\n"
+        ],
+        "name": "full_text",
+        "title": "Rough Content"
+    },
+    "language": "eng",
+    "invoice_type": "tax_invoice",
+    "fields": [
+        {
+            "content": "2,496.50",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9684296822475269,
+            "value_type": "number",
+            "bbox": [
+                1113,
+                750,
+                1203,
+                780
+            ],
+            "title": "Amount Due",
+            "page": 0,
+            "value": "2496.50",
+            "name": "amount_due"
+        },
+        {
+            "content": "2,496.50",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9679632783989994,
+            "value_type": "number",
+            "bbox": [
+                1113,
+                750,
+                1203,
+                780
+            ],
+            "title": "Total Amount",
+            "page": 0,
+            "value": "2496.50",
+            "name": "amount_total"
+        },
+        {
+            "content": "2,355.00",
+            "checks": {},
+            "score": 0.8821263858103979,
+            "value_type": "number",
+            "bbox": [
+                1113,
+                666,
+                1203,
+                696
+            ],
+            "title": "Tax Base Total",
+            "page": 0,
+            "value": "2355.00",
+            "name": "amount_total_base"
+        },
+        {
+            "content": "141.50",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.923968345912862,
+            "value_type": "number",
+            "bbox": [
+                1130,
+                708,
+                1202,
+                738
+            ],
+            "title": "Tax Total",
+            "page": 0,
+            "value": "141.50",
+            "name": "amount_total_tax"
+        },
+        {
+            "content": "Feb/28/2001",
+            "checks": {},
+            "score": 0.7713439244678214,
+            "value_type": "date",
+            "bbox": [
+                1095,
+                858,
+                1199,
+                888
+            ],
+            "title": "Issue Date",
+            "page": 0,
+            "value": "2001-02-28",
+            "name": "date_issue"
+        },
+        {
+            "content": "NW-01-16366",
+            "checks": {},
+            "score": 0.8545803615449672,
+            "value_type": "text",
+            "bbox": [
+                1020,
+                48,
+                1188,
+                78
+            ],
+            "title": "Invoice Identifier",
+            "page": 0,
+            "value": "NW-01-16366",
+            "name": "invoice_id"
+        },
+        {
+            "content": "NW-01-16366",
+            "checks": {},
+            "score": 0.6334481315560049,
+            "value_type": "text",
+            "bbox": [
+                1019,
+                42,
+                1187,
+                78
+            ],
+            "title": "Order Number",
+            "page": 0,
+            "value": "NW-01-16366",
+            "name": "order_id"
+        },
+        {
+            "content": "1223 Kelton Street\nGlobecity, Globeland 1000",
+            "checks": {},
+            "score": 0.3300721565094652,
+            "value_type": "text",
+            "bbox": [
+                63,
+                168,
+                271,
+                204
+            ],
+            "title": "Supplier Address",
+            "page": 0,
+            "value": "1223 Kelton Street\nGlobecity, Globeland 1000",
+            "name": "sender_address"
+        },
+        {
+            "content": "1223 Kelton Street",
+            "checks": {},
+            "score": 0.3510522088131122,
+            "value_type": "text",
+            "bbox": [
+                63,
+                168,
+                211,
+                186
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "1223 Kelton Street",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Globecity, Globeland 1000",
+            "checks": {},
+            "score": 0.3114583645583075,
+            "value_type": "text",
+            "bbox": [
+                63,
+                180,
+                271,
+                204
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "Globecity, Globeland 1000",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Acme Parts Corporation",
+            "checks": {},
+            "score": 0.8142399889094928,
+            "value_type": "text",
+            "bbox": [
+                68,
+                144,
+                250,
+                168
+            ],
+            "title": "Supplier Name",
+            "page": 0,
+            "value": "Acme Parts Corporation",
+            "name": "sender_name"
+        },
+        {
+            "content": [
+                {
+                    "content": "141.50",
+                    "checks": {
+                        "amount_equations": "good"
+                    },
+                    "score": 0.3159529057851186,
+                    "value_type": "number",
+                    "bbox": [
+                        1130,
+                        708,
+                        1202,
+                        738
+                    ],
+                    "title": "Tax Amount",
+                    "page": 0,
+                    "value": "141.50",
+                    "name": "tax_detail_tax"
+                },
+                {
+                    "content": "2,496.50",
+                    "checks": {
+                        "amount_equations": "good"
+                    },
+                    "score": 0.4140067019097801,
+                    "value_type": "number",
+                    "bbox": [
+                        1112,
+                        750,
+                        1202,
+                        780
+                    ],
+                    "title": "Tax Total",
+                    "page": 0,
+                    "value": "2496.50",
+                    "name": "tax_detail_total"
+                }
+            ],
+            "score": 0.3159529057851186,
+            "name": "tax_details",
+            "title": "Tax Details",
+            "page": 0,
+            "bbox": [
+                1112,
+                750,
+                1202,
+                780
+            ]
+        },
+        {
+            "content": "Net 30 days",
+            "checks": {},
+            "score": 0.9339902522936254,
+            "value_type": "text",
+            "bbox": [
+                1028,
+                234,
+                1126,
+                258
+            ],
+            "title": "Terms",
+            "page": 0,
+            "value": "Net 30 days",
+            "name": "terms"
+        }
+    ],
+    "text_lines": {
+        "content": [
+            [
+                "New World Company                     PURCHASE ORDER                       F.O:         NW\u201401\u201416366\n",
+                "|        Tee:ed ranaan smet___                                                                                              Number\n",
+                "CE5'22. eLELGT atsarz ro                                                                                                  P.O. DateFeb/28/2001\n",
+                "&  P      Denoce er 586 35                                                                                                                ..           P\n",
+                "PrF00*F5 42 SR AC 16\u2014943236\n",
+                "iboo\n",
+                "TO: Acme Parts Corporation                                            SHIP TO: The New World Company Phone (999) 999\u20149999\n",
+                "1323 Kelton Street                                                                2467 Pioneer Road John H       k\n",
+                "Globecity,  Globeland 1000                                                       Globecity,  Globelana, 1000                            onlact Jon Harcoc\n",
+                "(via FAX 999/999\u20149999)                                                                     Attn: Shlpping Mary\n",
+                "FOB: Vendor/Globecity Globeland                                                      SHIP VIA: UPS                             TERMS: Net 30 days\n",
+                ".nnannnnnnnnaenn E\n",
+                "001              10  F54749            NW Globe Chassis, 1492 Model                            28/02/01     EA                29.50                    295.00            Q84645\n",
+                "002             15F85352            NW Globe Light Kit                                           28/02/01  EA                19.00                    285.00            Q84646\n",
+                "003               6F84352            NW Globe 30\" Oak Stand                                    28/02/01  EA                 30.00                    180.00            Q84647\n",
+                "004           20  L86355          NW Atlas Leather\u2014Bound                                28/02/01    EA              25.00                 300.00          Q84648\n",
+                "005            12L86362           NW Atlas Young Readers Series                         28/02/01  EA               10.00                  120.00           Q84649\n",
+                "006          40  A86357         NW Pen Rollerball                                  28/02/01  EA              7.50               300.00         Q84650\n",
+                "007          25A86362         NW Pen Fountain                                   28/02/01  EA             16.00               400.00         Q84651\n",
+                "008            50A86552           NW Globe Beach Balls, 24\"                                28/02/01  EA                 5.00                   250.00           Q84652\n",
+                "009        100  A84352        NW Promotional Calendars                       28/02/01  EA            0.10              10.00        Q84653\n",
+                "010        100  A36352        NW Promotional Balloons                        28/02/01  EA            0.15              15.00        Q84654\n",
+                "I.PURCHASE ORDER NUMBER, PART NUMBER AND QUANTITY MUST SHOW ON EACH CARTON.\n",
+                "2 Two pacling sheets must accompany cach shppment                                                                                                                                            SUB\u2014TOTAL             2.355.00\n",
+                "3.Protecton of Matria n Transtt  llaricles deivered on this order to be packed adequately to prevent any\n",
+                "damago I shpnent and storage. Use ot newsprnt and glassne bags pronibted.  NI packages to be      IIII.!II....IMIIIIIIIIIIIIIIII                TAX             141.50\n",
+                "properiydentfed.\n",
+                "4.Seller must execute acknowledgment copy hereof and retun to buyer. No other form of acceptance is               Nu\u201401716356\n",
+                "bindng on buyet. Borerespressy Imtsacceplance fo tho trmsstated herin and any adtinal or ferent                                                           TOTAL         2,496.50\n",
+                "terns proposed by selle shal not be binding on buyer whetheror not they would mateialy atr thisorder\n",
+                "and are rjeced.\n",
+                "5. ANY 8OX OVER 50 klLoS WLL BE REFUSEO.\n",
+                "P.o. AcKNow.EDGED BY:\n",
+                "\u2014\u2014                                       BUYER                                                         DATE:. Feb/28/2001\n",
+                "DATE                                                        Page: 1 of 1                                                               Porhateoct cpo\u2014ssose!\n"
+            ]
+        ],
+        "name": "text_lines",
+        "title": "Rough Content"
+    },
+    "previews": [
+        "https://all.rir.rossum.ai/img/e8f3bf1b906945a19ecd659b_0.png"
+    ],
+    "currency": "usd",
+    "original_pages": [
+        "https://all.rir.rossum.ai/img/o_e8f3bf1b906945a19ecd659b_0.png"
+    ],
+    "message": "Document processing finished.",
+    "preview": "https://all.rir.rossum.ai/img/e8f3bf1b906945a19ecd659b_0.png"
+}

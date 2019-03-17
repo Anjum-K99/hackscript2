@@ -1,0 +1,64 @@
+{% load static %}
+<html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>All Files Analyser</title>
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700i" rel="stylesheet">
+        <link href="{% static "extract/style.css" %}" rel="stylesheet"/>
+        <meta name="google-signin-client_id" content="185542826383-fbsh4c1gn8bpmb6cugih36d8rao49hds.apps.googleusercontent.com">   
+        
+        {% block anay %} 
+        {% endblock anay%}
+    
+      </head>
+      <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="{% static "assets/header2.jpg" %}" alt="our logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon .icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="{% url 'extract-home' %}">HOME</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'extract-about' %}">ABOUT</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'extract-contact' %}">CONTACT US</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+    {% block content %}
+    {% endblock %}
+
+        <!--- Footer -->
+        <footer>
+            <div class="container-fluid padding">
+              <div class="row text-center">
+                <div class="col-12">
+                  <hr class="light">
+                  <h5>&copy; K.J. Somaiya College of Engineering</h5>
+                </div>
+              </div>
+            </div>
+        </footer>
+      <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+        <!--jquery-->
+        
+        <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+
+  </body>
+</html>

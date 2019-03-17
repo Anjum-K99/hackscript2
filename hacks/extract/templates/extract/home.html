@@ -1,0 +1,135 @@
+    {% extends "extract/base.html" %}
+    {% load crispy_forms_tags %}
+    {% load static %}
+
+    {% block anay %}
+    {% endblock anay %}
+
+    {% block content %}
+    <script>
+        function onSignIn(googleUser) {
+          var profile = googleUser.getBasicProfile();
+          console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+          console.log('Name: ' + profile.getName());
+          console.log('Image URL: ' + profile.getImageUrl());
+          console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        }
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <!--- Image Slider -->
+        <div class="container-fluid">
+        <div id="slides" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+          </ul>
+        </div>
+      </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{% static "assets/header2.jpg" %}">
+            <div class="carousel-caption">
+              <h1 class="display-2">Analyse Files</h1>
+              <h3>And Document Management System</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{% static "assets/header2.jpg" %}">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+    
+        <!--- Two Column Section -->
+        <div class="container-fluid padding form">
+            <div class="row padding">
+              <div class="col-md-12 col-lg-5">
+                <h2>Upload The File:</h2>
+                <form method="post" class="dropzone" id="my-awesome-dropzone" enctype="multipart/form-data"><!--make responsove-->
+                  {% csrf_token %}
+                  <div class="form-group ">
+                    <label>Please upload the file you want to analyze</label><br>
+                    {{ form| crispy }}
+                    <button class="btn btn-primary" id="proceed-btn" type="submit" value="Send">Proceed</button>
+                    <!--<div class="g-signin2" data-onsuccess="onSignIn"><!--#change</div>-->
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-7">
+               <!-- {% if context %}
+                <h1>qwerty</h1>
+                {% else %}
+                <h1>asdfghj</h1>
+                {% endif %} -->
+                <textarea id="text" placeholder="Your output goes here...">
+                  {% if context %}
+                    <p>
+                      {{ context.doctype }}
+                    </p> 
+                  {% endif %}
+                </textarea>
+              </div>
+            </div>
+            <hr id="divider">
+        </div>
+        <!--- Connect -->
+        <!-- Files supported-->
+        <div class="container-fluid padding files">
+          <div class="row text-center padding">
+            <div class="col-sm-12">
+              <h2>Files we support...</h2>
+        </div>
+          </div class="row text-center padding">
+          <div class="row text-center padding">
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <i class="fas fa-file-word"></i>
+            <h3>.DOCX File</h3>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+                <i class="fas fa-file-pdf"></i>
+            <h3>.PDF File</h3>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+                <i class="fas fa-file-alt"></i>
+            <h3>.TXT File</h3>
+          </div>
+          <div class="col-sm-6 col-md-3 More">
+                  <p>And many more...</p>
+          </div>
+           </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+          document.getElementById('proceed-btn').addEventListener('click',aj);
+        
+          // Load the output
+          function aj()
+          {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET','{% url "extract-home" %}',true);
+            xhr.onload = function()
+            {
+              if(this.status == 200)
+              {
+                console.log("Responsetext :",this.responseText)
+                var data = JSON.parse(this.responseText);
+                console.log("data : ", data)
+                var output = '<div class = "container">'
+                for(var i in data)
+                {
+                  output += '<ul>'
+                  var a = Object.keys(i);
+                  for(var j in a)
+                  { 
+                    output += '<li>' + j + ' : ' + data[j] + '</li>' 
+                  }
+                  output += '</ul>'
+                }
+                output += '</div>'
+                console.log(output)
+                //document.getElementById('text').innerHTML = output
+              }
+            }
+            xhr.send();
+          }
+      </script>
+    {% endblock %}
